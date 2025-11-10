@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {  LucideHome, Search } from "lucide-react";
 import MangaList from "./pages/Mangalist";
 import MangaDetail from "./pages/Mangadetail";
-import dogningen from "./images/Dog_ningen.png";
 import ChapterReader from "./pages/chapterreader";
 import About from "./pages/ABOUT";
 import { Link } from "react-router-dom";
@@ -20,7 +19,7 @@ function App() {
       author: "Eiichiro Oda",
       rating: 4.8,
       date: "1 ay önce",
-      image: dogningen,
+      image: "/images/dog-ningen/Dog_ningen.png",
       chapters: [ 
         "Bölüm 1: Benim hikayem", 
         "Bölüm 2: Gizemli suikast",
@@ -29,13 +28,13 @@ function App() {
     },
     {
       id: 2,
-      title: "One Piece",
-      author: "Eiichiro Oda",
+      title: "Helck",
+      author: "Nanaki Nanao",
       rating: 4.9,
-      date: "2 gün önce",
-      image: "https://i.imgur.com/Kc94H8y.jpg",
+      date: "1 yıl önce",
+      image: "/images/helck/helck.jpg",
       chapters:[
-       "Bölüm 1:deneme"
+       "Bölüm 1:Kahraman Helck"
       ]
     },
     {
@@ -59,7 +58,18 @@ function App() {
       chapters:[
         "Bölüm 1:sdsssds"
       ]
-      
+
+    },
+    {
+      id: 5,
+      title: "Nichijou",
+      author:"Hatta Ayuko&Mizuno Minami",
+      rating:3,
+      date: "bir yil once",
+      image: "/images/nichijou/nichijou.webp",
+      chapters:[
+        "Bölüm 1:Nijikuro Akademisi’nin günlük hayatı"
+      ]
     },
   ];
 
