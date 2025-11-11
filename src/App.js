@@ -19,11 +19,12 @@ function App() {
       author: "Eiichiro Oda",
       rating: 4.8,
       date: "1 ay önce",
+      imageFolder: "dog-ningen",
       image: "/images/dog-ningen/Dog_ningen.png",
       chapters: [ 
         "Bölüm 1: Benim hikayem", 
         "Bölüm 2: Gizemli suikast",
-        "Bölüm 3: Neo,Rex'e Karş",
+        "Bölüm 3: Neo,Rex'e Karşı",
       ]
     },
     {
@@ -33,6 +34,7 @@ function App() {
       rating: 4.9,
       date: "1 yıl önce",
       image: "/images/helck/helck.jpg",
+      imageFolder:"helck",
       chapters:[
        "Bölüm 1:Kahraman Helck"
       ]
@@ -66,6 +68,8 @@ function App() {
       author:"Hatta Ayuko&Mizuno Minami",
       rating:3,
       date: "bir yil once",
+      title: "Nichijou",
+      imageFolder:"nichijou",
       image: "/images/nichijou/nichijou.webp",
       chapters:[
         "Bölüm 1:Nijikuro Akademisi’nin günlük hayatı"
